@@ -3,10 +3,12 @@ void sayHello(String name, String Function(String) filter) {
 }
 
 void main() {
+  // ignore: prefer_function_declarations_over_variables
   var upperFunction = (String name) {
     return name.toUpperCase();
   };
 
+  // ignore: prefer_function_declarations_over_variables
   var lowerFunction = (String name) => name.toLowerCase();
 
   print(upperFunction('Abu Rizal'));

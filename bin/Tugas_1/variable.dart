@@ -1,10 +1,8 @@
 void main() {
-
   String name = 'Mochamad Abu Rizal';
-
   print(name);
 
-print('');
+  print('');
 
   var firstName = 'Mochamad';
   final lastName = 'Abu Rizal';
@@ -15,7 +13,7 @@ print('');
   print(firstName);
   print(lastName);
 
-print('');
+  print('');
 
   final array1 = [1, 2, 3];
   const array2 = [1, 2, 3];
@@ -26,7 +24,7 @@ print('');
   print(array1);
   print(array2);
 
-print('');
+  print('');
 
   late var value = getValue();
   print('Display Value');

@@ -1,7 +1,7 @@
 void main() {
-  int number1;
-  int? number2; // Nullable
+  int number1 = 10; // non-nullable: wajib diisi
+  int? number2; // Nullable: boleh null karena ada tanda ?
 
-  // print(number1); // Error karena non-nullable belum diinisialisasi
+  print(number1);
   print(number2); // Prints null
 }

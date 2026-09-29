@@ -6,16 +6,20 @@ void main() {
   print(lastName);
 
   // String Interpolation
-  var fullName = '$firstName ${lastName}';
+  var fullName = '$firstName $lastName';
   print(fullName);
 
   // Character Backslash
   var text = 'this is \'dart\' \$cool';
   print(text);
 
-  // Menggabungkan String
+  // Menggabungkan String (pakai operator + atau whitespace)
+  // ignore: prefer_interpolation_to_compose_strings
   var name1 = firstName + ' ' + lastName;
-  var name2 = 'Abu' ' ' 'Rizal';
+  var name2 =
+      'Abu'
+      ' '
+      'Rizal';
   print(name1);
   print(name2);
 
