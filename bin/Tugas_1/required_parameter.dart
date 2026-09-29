@@ -4,6 +4,6 @@ void sayhello({required String firstName, String? lastName}) {
 
 void main() {
   sayhello(firstName: 'Mochamad', lastName: 'Abu Rizal');
-  sayhello(firstName: 'Mochamad', lastName: 'Abu Rizal');
+  sayhello(firstName: 'Abu', lastName: 'Rizal');
   sayhello(firstName: 'Mochamad');
 }
