@@ -3,5 +3,5 @@ void main() {
   int? number2; // Nullable: boleh null karena ada tanda ?
 
   print(number1);
-  print(number2); // Prints null
+  print(number2); // Mencetak null
 }

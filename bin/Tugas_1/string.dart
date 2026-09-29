@@ -9,7 +9,7 @@ void main() {
   var fullName = '$firstName $lastName';
   print(fullName);
 
-  // Character Backslash
+  // Karakter Backslash (character backslash)
   var text = 'this is \'dart\' \$cool';
   print(text);
 
