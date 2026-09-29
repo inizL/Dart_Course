@@ -2,7 +2,7 @@
 /// Biasanya akan digenerate menjadi dart doc
 void main() {
   // Single line comment: Variabel menyimpan nama
-  var name = 'zL';
+  var name = 'Mochamad Abu Rizal';
 
   /*
    * Multi-line comment:
